@@ -9,6 +9,7 @@ args = vars(ap.parse_args())
 image = cv2.imread(args["image"])
 cv2.imshow("Original", image)
 cv2.waitKey(0)
+cv2.waitKey(0)
 
 kernelSizes = [(3, 3), (9, 9), (15, 15)]
 
